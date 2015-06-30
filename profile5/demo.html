@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="GoTour">
+    <meta name="author" content="DADS">
+
+    <title>GoTour</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/fonts.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="photo-gallery.js"></script>
+	<link rel="stylesheet" href="css/creative.css" type="text/css">
+  </head>
+  <style>
+      ul {         
+          padding:0 0 0 0;
+          margin:0 0 0 0;
+      }
+      ul li {     
+          list-style:none;
+          margin-bottom:25px;           
+      }
+      ul li img {
+          cursor: pointer;
+      }
+      .modal-body {
+          padding:5px !important;
+      }
+      .modal-content {
+          border-radius:0;
+      }
+      .modal-dialog img {
+          text-align:center;
+          margin:0 auto;
+      }
+    .controls{          
+        width:50px;
+        display:block;
+        font-size:11px;
+        padding-top:8px;
+        font-weight:bold;          
+    }
+    .next {
+        float:right;
+        text-align:right;
+    }
+      /*override modal for demo only*/
+      .modal-dialog {
+          max-width:500px;
+          padding-top: 90px;
+      }
+      @media screen and (min-width: 768px){
+          .modal-dialog {
+              width:500px;
+              padding-top: 90px;
+          }          
+      }
+      @media screen and (max-width:1500px){
+          #ads {
+              display:none;
+          }
+      }
+  </style>
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top" style='background-color:black;opacity:.8;'>
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#page-top" style='text-shadow:1px 1px;position:relative;top:0px;left:16px;font-family:EternalFascination1;color:#95a5a6;font-size:25px;font-weight:bold;'><img style='position:relative;top:-3px;' src='img/logo.png' width='60'><div style='display:inline-block;color:#7f8c8d;'>G</div>o<div style='display:inline-block;color:#7f8c8d;'>T</div>o<div style='display:inline-block;color:#7f8c8d;'>u</div>r</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right" style='position:relative;top:6px;right:10px;background-color:transparent;'>
+                    <li>
+                        <a>
+							<div class="row" style='position:relative;left:6px;top:-6px;background-color:transparent;'>
+								<div class="col-lg-12">
+									<div class="input-group">
+										<input type="text" class="form-control" placeholder="Search for...">
+										<span class="input-group-btn">
+											<button class="btn btn-default" type="button" style='border-style:solid;border-width:1px;border-color:#bdc3c7;'>Go!</button>
+										</span>
+									</div><!-- /input-group -->
+								</div><!-- /.col-lg-6 -->
+							</div><!-- /.row -->
+						
+						</a>
+                    </li>
+					
+                    <li>
+                        <a class="page-scroll" href="#popular">Popular</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#feedback">FeedBack</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h2 style='font-family:mimafuse;color:black;font-size:42px;'>The World is book. Those who don't travel Read only one page</h2>
+                <hr>
+            </div>
+        </div>
+    </header>   
+
+	<div class="intro">
+   <p><strong>GAYA</strong></p>
+</div>	
+
+
+<div class="container">  
+   <div class="col-lg-12">	
+	    <div class="introduction">
+	      <p>Gaya (/ɡʌjɑː/) is a city of ancient historical and mythological significance. It is one of the major tourist attractions of Bihar. The city is the second largest city of Bihar and also the headquarters of Gaya district and Magadh division.
+Gaya is 100 kilometers south of Patna, the capital city of Bihar. Situated on the banks of the Phalgu River (or Niranjana, as mentioned in Ramayana), it is a place sanctified by the Jain, Hindu and Buddhist religions.</p>
+        </div>
+   	<div>
+<div>	
+
+
+  
+    <div class="container">    
+        <div class="row" style="text-align:center; border-bottom:1px dashed #ccc;  padding:0 0 20px 0; margin-bottom:40px;">
+            <h3 style="font-family:arial; font-weight:bold; font-size:30px;">
+                Gaya Gallery
+        </h3>
+        <div class="jquery-script-ads" align="center"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+        </div>
+        
+        <ul class="row">
+            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="images/1.jpg">
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="images/2.jpg">
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="images/3.jpg">
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="images/4.jpg">
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="images/5.jpg">
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="images/7.jpg">
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="images/8.jpg">
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="images/9.jpg">
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="images/10.jpg">
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="images/11.jpg">
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="images/12.jpg">
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="images/13.jpg">
+            </li>
+            
+          </ul>             
+    </div> <!-- /container -->
+    
+     
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">         
+          <div class="modal-body">                
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+	
+	<hr/><br/><br/>
+	<div class="places" style="text-align:center">
+	       <h3 style="font-family:arial; font-weight:bold; font-size:30px;">
+                Places To Visit In Gaya
+        </h3>
+	</div>	
+	
+	 <section class="no-padding" id="popular">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/1.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    
+                                </div>
+                                <div class="project-name">
+                                    Bodh Gaya
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    
+                                </div>
+                                <div class="project-name">
+                                    Giant Statue
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/3.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    
+                                </div>
+                                <div class="project-name">
+                                    Mangla gauri 
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/4.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    
+                                </div>
+                                <div class="project-name">
+                                    Vishnu Pad Mandir
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/5.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    
+                                </div>
+                                <div class="project-name">
+                                    Mokhsh Mandir
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/6.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    
+                                </div>
+                                <div class="project-name">
+                                    Mahabodhi Mandir
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	 <hr>
+
+                <!-- Blog Comments -->
+
+                <!-- Comments Form -->
+                <div class="well">
+                    <h4>Leave a Comment:</h4>
+                    <form role="form">
+                        <div class="form-group">
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+
+                <hr>
+	
+	<section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="primary">
+                    <p>Contact Us for Queries...</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                    <p>+919074764303</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="mailto:deepprakashp354@outlook.com">deepprakashp354@outlook.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+  </body>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+  
+</html>

@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'EarlyBird';
+	src: url('./EarlyBird.eot');
+	src: local('EarlyBird'), url('./EarlyBird.woff') format('woff'), url('./EarlyBird.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_47639">Text with this font applied</p> */
+.fontsforweb_fontid_47639 {
+	font-family: 'EarlyBird' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */

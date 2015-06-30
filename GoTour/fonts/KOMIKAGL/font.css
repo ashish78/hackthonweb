@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'KOMIKAGL';
+	src: url('./KOMIKAGL.eot');
+	src: local('KOMIKAGL'), url('./KOMIKAGL.woff') format('woff'), url('./KOMIKAGL.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_240">Text with this font applied</p> */
+.fontsforweb_fontid_240 {
+	font-family: 'KOMIKAGL' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */

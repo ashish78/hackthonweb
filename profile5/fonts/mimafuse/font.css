@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'mimafuse';
+	src: url('./mimafuse.eot');
+	src: local('mimafuse'), url('./mimafuse.woff') format('woff'), url('./mimafuse.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_41">Text with this font applied</p> */
+.fontsforweb_fontid_41 {
+	font-family: 'mimafuse' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */

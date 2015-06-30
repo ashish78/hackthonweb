@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'CRUSOGP';
+	src: url('./CRUSOGP.eot');
+	src: local('CRUSOGP'), url('./CRUSOGP.woff') format('woff'), url('./CRUSOGP.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_607">Text with this font applied</p> */
+.fontsforweb_fontid_607 {
+	font-family: 'CRUSOGP' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */
